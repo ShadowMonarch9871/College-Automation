@@ -1,5 +1,4 @@
 import React from "react";
-// my name is Anmol
 export default function navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-primary">
