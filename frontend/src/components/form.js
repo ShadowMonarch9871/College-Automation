@@ -9,7 +9,7 @@ export default function form() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          height: "100vh",
+          height: "90vh",
         }}
       >
         <form
@@ -30,9 +30,6 @@ export default function form() {
               id="username"
               name="username"
             />
-            <div id="emailHelp" className="form-text">
-              Enter your Username here
-            </div>
           </div>
           <div className="mb-3">
             <label htmlFor="password" className="form-label">
@@ -45,14 +42,14 @@ export default function form() {
               name="password"
             />
           </div>
-          <select class="form-select mb-3"  aria-label="Default select example">
-            <option selected>Open this select menu</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
+          <div className="mb-1">
+            <label className="form-label">Select User Type:</label>
+          </div>
+          <select class="form-select mb-3" aria-label="Default select example">
+            <option value="Student">Student</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Admin">Admin</option>
           </select>
-
-          
 
           <button type="submit" className="btn btn-primary">
             Submit
