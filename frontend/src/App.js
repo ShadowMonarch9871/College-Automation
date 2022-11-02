@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import Student from "./pages/Student";
-import Login from "./pages/Login";
+// import Login from "./pages/Login";
 function App() {
   return (
     <>
