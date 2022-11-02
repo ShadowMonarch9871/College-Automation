@@ -9,7 +9,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             {/* <Route index element={<Login />} /> */}
-            <Route index element={<Login/>} />
+            <Route index element={<Student/>} />
           </Routes>
         </BrowserRouter>
       </div>
