@@ -1,12 +1,15 @@
 import React from 'react'
 import Navbar from "../components/Navbar";
-import Profile from '../components/Profile';
-
-export default function Student() {
+// import Buttons from"../components/Buttons";
+import Sidebar from '../components/Sidebar';
+import MarksTable from"../components/MarksTable";
+export default function student() {
   return (
     <>
     <Navbar/>
-    {/* <Profile/> */}
+    <Sidebar/>
+    <MarksTable/>
     </>
   );
 }
+
