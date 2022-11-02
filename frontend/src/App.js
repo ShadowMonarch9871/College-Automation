@@ -1,14 +1,18 @@
 import "./App.css";
-import Navbar from "./components/Navbar"
-import Form from "./components/form";
-import Buttons from "./components/buttons"
-
+import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import Student from "./pages/Student";
+import Login from "./pages/Login";
 function App() {
   return (
     <>
-      <Navbar />
-      <Buttons/>
-      <Form />
+      <div className="wrapper">
+        <BrowserRouter>
+          <Routes>
+            {/* <Route index element={<Login />} /> */}
+            <Route index element={<Student/>} />
+          </Routes>
+        </BrowserRouter>
+      </div>
     </>
   );
 }
