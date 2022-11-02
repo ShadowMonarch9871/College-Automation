@@ -14,7 +14,7 @@ const Sidebar = () => {
     <div
       style={{ display: "flex", height: "92vh", overflow: "scroll initial" }}
     >
-      <CDBSidebar textColor="#fff" backgroundColor="#333">
+      <CDBSidebar textColor="#333" backgroundColor="#f0f0f0">
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
           <a
             href="/"
@@ -27,15 +27,15 @@ const Sidebar = () => {
 
         <CDBSidebarContent className="sidebar-content">
           <CDBSidebarMenu>
-            <NavLink exact to="/profile" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="user">Profile page</CDBSidebarMenuItem>
+            <NavLink exact to="/Profile" activeClassName="activeClicked">
+              <CDBSidebarMenuItem icon="user">Profile</CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="/analytics" activeClassName="activeClicked">
+            <NavLink exact to="/Attendance" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="chart-line">
                 Attendance
               </CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="/tables" activeClassName="activeClicked">
+            <NavLink exact to="/Marks" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="table">Marks</CDBSidebarMenuItem>
             </NavLink>
 
