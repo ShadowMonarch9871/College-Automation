@@ -3,7 +3,7 @@ import { MDBCol, MDBContainer, MDBRow, MDBCard, MDBCardText, MDBCardBody, MDBCar
 import { detectOverflow } from '@popperjs/core';
 export default function Profile() {
   return (
-    <section className="vh-100" style={{ backgroundColor: '#f4f5f7' }}>
+    <section className="vh-92" style={{ backgroundColor: '#f4f5f7' }}>
       <MDBContainer className="py-5 h-100">
         <MDBRow className="justify-content-center align-items-center h-100">
           <MDBCol lg="6" className="mb-4 mb-lg-0">
