@@ -7,18 +7,10 @@ import Profile from "../components/Profile";
 export default function student() {
   return (
     <>
-      <Navbar />
-
-      {/* <MarksTable/> */}
-
-      <div className="flexbox-container">
-        <div>
-          <Sidebar />
-        </div>
-        <div>
-          <Profile/>
-        </div>
-      </div>
+    <Navbar/>
+    <Sidebar/> 
+    {/* <MarksTable/> */}
+    {/* <Profile/> */}
     </>
   );
 }

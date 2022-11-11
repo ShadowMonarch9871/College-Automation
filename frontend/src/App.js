@@ -10,6 +10,7 @@ function App() {
           <Routes>
             {/* <Route index element={<Login />} /> */}
             <Route index element={<Student/>} />
+           
           </Routes>
         </BrowserRouter>
       </div>
