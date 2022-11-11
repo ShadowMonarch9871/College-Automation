@@ -11,7 +11,7 @@ export default function Profile() {
               <MDBRow className="g-0">
                 <MDBCol md="4" className="gradient-custom text-center text-white"
                   style={{ borderTopLeftRadius: '.5rem', borderBottomLeftRadius: '.5rem' }}>
-                  <MDBCardImage src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava1-bg.webp"
+                  <MDBCardImage src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN1kh4jRoUuCCECbcO9hMa9Swbwgf9xER8NA&usqp=CAU"
                     alt="Avatar" className="my-5" style={{ width: '80px' }} fluid />
                   <MDBTypography tag="h5">Marie Horwitz</MDBTypography>
                   <MDBCardText>Web Designer</MDBCardText>
@@ -19,32 +19,34 @@ export default function Profile() {
                 </MDBCol>
                 <MDBCol md="8">
                   <MDBCardBody className="p-4">
-                    <MDBTypography tag="h6">Information</MDBTypography>
+                    <MDBTypography tag="h6">Profile</MDBTypography>
                     <hr className="mt-0 mb-4" />
                     <MDBRow className="pt-1">
+                    <MDBCol size="6" className="mb-3">
+                        <MDBTypography tag="h6">Name</MDBTypography>
+                        <MDBCardText className="text-muted">eg. Anmol Shrama</MDBCardText>
+                      </MDBCol>
                       <MDBCol size="6" className="mb-3">
-                        <MDBTypography tag="h6">Email</MDBTypography>
+                        <MDBTypography tag="h6">Persnal Email</MDBTypography>
                         <MDBCardText className="text-muted">info@example.com</MDBCardText>
                       </MDBCol>
+                      <MDBCol size="6" className="mb-3">
+                        <MDBTypography tag="h6">Official Email</MDBTypography>
+                        <MDBCardText className="text-muted">abcd@abes.ac.in</MDBCardText>
+                      </MDBCol> 
                       <MDBCol size="6" className="mb-3">
                         <MDBTypography tag="h6">Phone</MDBTypography>
                         <MDBCardText className="text-muted">123 456 789</MDBCardText>
                       </MDBCol>
-                    </MDBRow>
-
-                    <MDBTypography tag="h6">Information</MDBTypography>
-                    <hr className="mt-0 mb-4" />
-                    <MDBRow className="pt-1">
                       <MDBCol size="6" className="mb-3">
-                        <MDBTypography tag="h6">Email</MDBTypography>
-                        <MDBCardText className="text-muted">info@example.com</MDBCardText>
+                        <MDBTypography tag="h6">Course</MDBTypography>
+                        <MDBCardText className="text-muted">eg.Btech</MDBCardText>
                       </MDBCol>
                       <MDBCol size="6" className="mb-3">
-                        <MDBTypography tag="h6">Phone</MDBTypography>
-                        <MDBCardText className="text-muted">123 456 789</MDBCardText>
+                        <MDBTypography tag="h6">Branch&Section</MDBTypography>
+                        <MDBCardText className="text-muted">eg.cse&A</MDBCardText>
                       </MDBCol>
-                    </MDBRow>
-
+                    </MDBRow>                    
                     <div className="d-flex justify-content-start">
                       <a href="#!"><MDBIcon fab icon="facebook me-3" size="lg" /></a>
                       <a href="#!"><MDBIcon fab icon="twitter me-3" size="lg" /></a>

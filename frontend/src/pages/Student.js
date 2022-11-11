@@ -10,7 +10,7 @@ export default function student() {
     <Navbar/>
     <Sidebar/> 
     {/* <MarksTable/> */}
-    {/* <Profile/> */}
+    <Profile/>
     </>
   );
 }
