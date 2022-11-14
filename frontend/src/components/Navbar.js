@@ -3,7 +3,7 @@ export default function navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-primary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand text-white" href="#">
           College Campus Automation
         </a>
         <button
@@ -37,7 +37,7 @@ export default function navbar() {
               placeholder="Search"
               aria-label="Search"
             />
-            <button className="btn btn-outline-success" type="submit">
+            <button className="btn btn-outline-success text-white bg-info"  type="submit">
               Search
             </button>
           </form>
